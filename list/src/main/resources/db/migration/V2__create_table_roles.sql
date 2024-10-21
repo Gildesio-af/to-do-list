@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS roles (
+    id VARCHAR(255) PRIMARY KEY,
+    authority VARCHAR(255) NOT NULL
+);
